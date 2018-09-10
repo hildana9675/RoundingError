@@ -31,8 +31,8 @@ public class RoundingError {
         double squareOfSquare;
         double rError;
         
-        squareOfSquare = Math.pow(sqrt(number), 2);
-        rError = number - squareOfSquare;
+        squareOfSquare = Math.pow(sqrt(number), 2); 
+        rError = number - squareOfSquare; //the rounding error  
         
         //Display the results
      	JOptionPane.showMessageDialog(null, "The square of the square: "
